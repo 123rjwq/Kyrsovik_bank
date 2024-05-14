@@ -1,0 +1,7 @@
+C:\Users\cakyr\Desktop\college studies\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.csproj.AssemblyReference.cache
+C:\Users\cakyr\Desktop\college studies\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.Forms.LoginForm.resources
+C:\Users\cakyr\Desktop\college studies\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.Properties.Resources.resources
+C:\Users\cakyr\Desktop\college studies\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.csproj.GenerateResource.cache
+C:\Users\cakyr\Desktop\college studies\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.csproj.CoreCompileInputs.cache
+C:\Users\cakyr\Desktop\college studies\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.Forms.RegistrationForm.resources
+C:\Users\cakyr\Desktop\college studies\db\c#\v_2\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.csproj.AssemblyReference.cache

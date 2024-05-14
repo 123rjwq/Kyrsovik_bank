@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cakyr\\Desktop\\college studies\\db\\c#\\Pr_mobile_bank_rom_kir\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|c:\\users\\cakyr\\desktop\\college studies\\db\\c#\\pr_mobile_bank_rom_kir\\pr_mobile_bank_rom_kir\\forms\\sendtoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|solutionrelative:pr_mobile_bank_rom_kir\\forms\\sendtoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|C:\\Users\\cakyr\\Desktop\\college studies\\db\\c#\\Pr_mobile_bank_rom_kir\\pr_mobile_bank_rom_kir\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|solutionrelative:pr_mobile_bank_rom_kir\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|c:\\users\\cakyr\\desktop\\college studies\\db\\c#\\pr_mobile_bank_rom_kir\\pr_mobile_bank_rom_kir\\forms\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|solutionrelative:pr_mobile_bank_rom_kir\\forms\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|c:\\users\\cakyr\\desktop\\college studies\\db\\c#\\pr_mobile_bank_rom_kir\\pr_mobile_bank_rom_kir\\forms\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|solutionrelative:pr_mobile_bank_rom_kir\\forms\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|c:\\users\\cakyr\\desktop\\college studies\\db\\c#\\pr_mobile_bank_rom_kir\\pr_mobile_bank_rom_kir\\forms\\sendtoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|solutionrelative:pr_mobile_bank_rom_kir\\forms\\sendtoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|c:\\users\\cakyr\\desktop\\college studies\\db\\c#\\pr_mobile_bank_rom_kir\\pr_mobile_bank_rom_kir\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|solutionrelative:pr_mobile_bank_rom_kir\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|C:\\Users\\cakyr\\Desktop\\college studies\\db\\c#\\Pr_mobile_bank_rom_kir\\pr_mobile_bank_rom_kir\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|solutionrelative:pr_mobile_bank_rom_kir\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|C:\\Users\\cakyr\\Desktop\\college studies\\db\\c#\\Pr_mobile_bank_rom_kir\\pr_mobile_bank_rom_kir\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|solutionrelative:pr_mobile_bank_rom_kir\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Validation.cs",
+              "DocumentMoniker": "C:\\Users\\cakyr\\Desktop\\college studies\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\Validation.cs",
+              "RelativeDocumentMoniker": "Pr_mobile_bank_rom_kir\\Forms\\Validation.cs",
+              "ToolTip": "C:\\Users\\cakyr\\Desktop\\college studies\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\Validation.cs",
+              "RelativeToolTip": "Pr_mobile_bank_rom_kir\\Forms\\Validation.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T16:37:50.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Validation.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\cakyr\\Desktop\\college studies\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\Validation.cs",
+              "RelativeDocumentMoniker": "Pr_mobile_bank_rom_kir\\Forms\\Validation.cs",
+              "ToolTip": "C:\\Users\\cakyr\\Desktop\\college studies\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\Validation.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Pr_mobile_bank_rom_kir\\Forms\\Validation.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T16:37:16.369Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SendToForm.cs",
+              "DocumentMoniker": "C:\\Users\\cakyr\\Desktop\\college studies\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\SendToForm.cs",
+              "RelativeDocumentMoniker": "Pr_mobile_bank_rom_kir\\Forms\\SendToForm.cs",
+              "ToolTip": "C:\\Users\\cakyr\\Desktop\\college studies\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\SendToForm.cs",
+              "RelativeToolTip": "Pr_mobile_bank_rom_kir\\Forms\\SendToForm.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAmwIwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T15:05:59.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SendToForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\cakyr\\Desktop\\college studies\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\SendToForm.cs",
+              "RelativeDocumentMoniker": "Pr_mobile_bank_rom_kir\\Forms\\SendToForm.cs",
+              "ToolTip": "C:\\Users\\cakyr\\Desktop\\college studies\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\SendToForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Pr_mobile_bank_rom_kir\\Forms\\SendToForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T15:04:51.964Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\cakyr\\Desktop\\college studies\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "Pr_mobile_bank_rom_kir\\Forms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\cakyr\\Desktop\\college studies\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\MainForm.cs",
+              "RelativeToolTip": "Pr_mobile_bank_rom_kir\\Forms\\MainForm.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAL4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T13:20:18.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\cakyr\\Desktop\\college studies\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Pr_mobile_bank_rom_kir\\Forms\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\cakyr\\Desktop\\college studies\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\LoginForm.cs",
+              "RelativeToolTip": "Pr_mobile_bank_rom_kir\\Forms\\LoginForm.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAuwF8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T15:42:21.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\cakyr\\Desktop\\college studies\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "Pr_mobile_bank_rom_kir\\Forms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\cakyr\\Desktop\\college studies\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Pr_mobile_bank_rom_kir\\Forms\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T12:00:51.609Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\cakyr\\Desktop\\college studies\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Pr_mobile_bank_rom_kir\\Forms\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\cakyr\\Desktop\\college studies\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\LoginForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Pr_mobile_bank_rom_kir\\Forms\\LoginForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T09:40:41.371Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
