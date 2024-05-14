@@ -109,4 +109,4 @@ INSERT INTO clientServices (serviceName, serviceBalance, serviceType) VALUES ('М
 INSERT INTO clientServices (serviceName, serviceBalance, serviceType) VALUES ('Брат', 0, 'Перевод');
 
 
-
+update bank_card set bank_card_balance = 50000 where id_bank_card = 1

@@ -11,3 +11,18 @@ C:\Users\cakyr\Desktop\college studies\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_ba
 C:\Users\cakyr\Desktop\college studies\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.Forms.MainForm.resources
 C:\Users\cakyr\Desktop\college studies\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.exe
 C:\Users\cakyr\Desktop\college studies\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.pdb
+C:\Users\cakyr\Documents\GitHub\Kyrsovik_bank\v_2\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.csproj.AssemblyReference.cache
+C:\Users\cakyr\Documents\GitHub\Kyrsovik_bank\v_2\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.Forms.AddBankCard.resources
+C:\Users\cakyr\Documents\GitHub\Kyrsovik_bank\v_2\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.Forms.LoginForm.resources
+C:\Users\cakyr\Documents\GitHub\Kyrsovik_bank\v_2\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.Forms.MainForm.resources
+C:\Users\cakyr\Documents\GitHub\Kyrsovik_bank\v_2\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.Forms.RegistrationForm.resources
+C:\Users\cakyr\Documents\GitHub\Kyrsovik_bank\v_2\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.Forms.SendToForm.resources
+C:\Users\cakyr\Documents\GitHub\Kyrsovik_bank\v_2\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.Forms.Validation.resources
+C:\Users\cakyr\Documents\GitHub\Kyrsovik_bank\v_2\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.Properties.Resources.resources
+C:\Users\cakyr\Documents\GitHub\Kyrsovik_bank\v_2\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.csproj.GenerateResource.cache
+C:\Users\cakyr\Documents\GitHub\Kyrsovik_bank\v_2\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.csproj.CoreCompileInputs.cache
+C:\Users\cakyr\Documents\GitHub\Kyrsovik_bank\v_2\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.exe
+C:\Users\cakyr\Documents\GitHub\Kyrsovik_bank\v_2\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.pdb
+C:\Users\cakyr\Documents\GitHub\Kyrsovik_bank\v_2\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\bin\Debug\Pr_mobile_bank_rom_kir.exe.config
+C:\Users\cakyr\Documents\GitHub\Kyrsovik_bank\v_2\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\bin\Debug\Pr_mobile_bank_rom_kir.exe
+C:\Users\cakyr\Documents\GitHub\Kyrsovik_bank\v_2\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\bin\Debug\Pr_mobile_bank_rom_kir.pdb

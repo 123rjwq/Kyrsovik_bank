@@ -31,6 +31,8 @@
             this.CloseButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SendButton = new System.Windows.Forms.Button();
+            this.numericUpDownPin = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPin)).BeginInit();
             this.SuspendLayout();
             // 
             // CloseButton
@@ -70,18 +72,27 @@
             this.SendButton.UseVisualStyleBackColor = false;
             this.SendButton.Click += new System.EventHandler(this.SendButton_Click);
             // 
+            // numericUpDownPin
+            // 
+            this.numericUpDownPin.Location = new System.Drawing.Point(40, 108);
+            this.numericUpDownPin.Name = "numericUpDownPin";
+            this.numericUpDownPin.Size = new System.Drawing.Size(120, 20);
+            this.numericUpDownPin.TabIndex = 101;
+            // 
             // Validation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(326, 200);
+            this.Controls.Add(this.numericUpDownPin);
             this.Controls.Add(this.SendButton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.CloseButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Validation";
             this.Text = "Validation";
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPin)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -92,5 +103,6 @@
         private System.Windows.Forms.Button CloseButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button SendButton;
+        private System.Windows.Forms.NumericUpDown numericUpDownPin;
     }
 }

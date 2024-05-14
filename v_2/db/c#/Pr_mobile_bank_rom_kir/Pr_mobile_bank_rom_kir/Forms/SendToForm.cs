@@ -6,13 +6,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.IO;
 
 namespace Pr_mobile_bank_rom_kir.Forms
 {
     public partial class SendToForm : Form
     {
         DataBaseConnection database =  new DataBaseConnection();
-        Random random = new Random();
+        Random rand = new Random();
         SqlDataAdapter adapter = new SqlDataAdapter();
         DataTable table = new DataTable();
 
@@ -139,13 +140,70 @@ namespace Pr_mobile_bank_rom_kir.Forms
                     for (int i = 0; i < 10; i++)
                     {
                         transactionNumber += Convert.ToString(rand.Next(0, 10));
-
                     }
+
+                    var queryTransaction1 = $"";
+                    var queryTransaction2 = $"";
+
+                    if (cardCurrency == "RUB" && cardCurrency == "USD")
+                    {
+                        queryTransaction1 = $"update bank_card set bank_card_balance = bank_card_balance - '{sum}' where bank_card_number = '{cardNumber}'";
+                        queryTransaction2 = $"update bank_card set bank_card_balance = bank_card_balance - '{sum /= dolar}' where bank_card_number = '{destinationCard}'";
+                    }
+                    else if (cardCurrency == "RUB" && cardCurrency == "EUR")
+                    {
+                        queryTransaction1 = $"update bank_card set bank_card_balance = bank_card_balance - '{sum}' where bank_card_number = '{cardNumber}'";
+                        queryTransaction2 = $"update bank_card set bank_card_balance = bank_card_balance - '{sum /= euro}' where bank_card_number = '{destinationCard}'";
+                    }
+
+
+
+                    else if (cardCurrency == "USD" && cardCurrency == "RUB")
+                    {
+                        queryTransaction1 = $"update bank_card set bank_card_balance = bank_card_balance - '{sum}' where bank_card_number = '{cardNumber}'";
+                        queryTransaction2 = $"update bank_card set bank_card_balance = bank_card_balance - '{sum *= dolar}' where bank_card_number = '{destinationCard}'";
+                    }
+                    else if (cardCurrency == "USD" && cardCurrency == "EUR")
+                    {
+                        queryTransaction1 = $"update bank_card set bank_card_balance = bank_card_balance - '{sum}' where bank_card_number = '{cardNumber}'";
+                        queryTransaction2 = $"update bank_card set bank_card_balance = bank_card_balance - '{sum *= 0.96}' where bank_card_number = '{destinationCard}'";
+                    }
+
+
+
+                    else if (cardCurrency == "EUR" && cardCurrency == "RUB")
+                    {
+                        queryTransaction1 = $"update bank_card set bank_card_balance = bank_card_balance - '{sum}' where bank_card_number = '{cardNumber}'";
+                        queryTransaction2 = $"update bank_card set bank_card_balance = bank_card_balance - '{sum *= euro}' where bank_card_number = '{destinationCard}'";
+                    }
+                    else if (cardCurrency == "EUR" && cardCurrency == "USD")
+                    {
+                        queryTransaction1 = $"update bank_card set bank_card_balance = bank_card_balance - '{sum * 1.04}' where bank_card_number = '{cardNumber}'";
+                        queryTransaction2 = $"update bank_card set bank_card_balance = bank_card_balance - '{sum}' where bank_card_number = '{destinationCard}'";
+                    }
+                    // добавить еще валют
+
+                    var queryTransaction3 = $"insert into transactions(transaction_type, transaction_destination, transaction_date,transaction_number, transaction_value, id_bank_card)";
+                    var command1 = new SqlCommand(queryTransaction1, database.getConnection());
+                    var command2 = new SqlCommand(queryTransaction2, database.getConnection());
+                    var command3 = new SqlCommand(queryTransaction3, database.getConnection());
+                    database.openConnection();
+                    command1.ExecuteNonQuery();
+                    command2.ExecuteNonQuery();
+                    command3.ExecuteNonQuery();
+                    database.closeConnection();
                 }
             }
 
         }
 
-        
+        private void SendToForm_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                ReleaseCapture();
+                SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
+            }
+        }
     }
 }

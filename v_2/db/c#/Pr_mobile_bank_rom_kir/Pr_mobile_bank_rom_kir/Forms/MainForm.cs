@@ -188,7 +188,7 @@ namespace Pr_mobile_bank_rom_kir.Forms
         private void TranslationButton_Click(object sender, EventArgs e)
         {
             SendToForm sendToForm = new SendToForm();
-            DataStorege.backCard = CardTextBox.Text;
+            DataStorage.bankCard = CardTextBox.Text;
             DataStorage.cardNumber = CardsComboBox.GetItemText(CardsComboBox.SelectedItem);
             CardsComboBox.Text = "";
             sendToForm.ShowDialog();
