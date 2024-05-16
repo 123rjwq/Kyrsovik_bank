@@ -69,7 +69,7 @@ namespace Pr_mobile_bank_rom_kir.Forms
                 }
 
                 var queryCheckCardNumber = $"select * from bank_card where bank_card_number = '{cardNumber}'";
-                SqlCommand command = new SqlCommand(queryCheckCardNumber, database.getConnection());
+                SqlCommand command = new SqlCommand(queryCheckCardNumber, database.GetConnection());
                 adapter.SelectCommand = command;
                 adapter.Fill(table);
 
@@ -80,7 +80,7 @@ namespace Pr_mobile_bank_rom_kir.Forms
             } while (isCardFree == false);
 
             var queryAddNewCard = $"insert into bank_card(bank_card_type, bank_card_number, bank_card_cvv_code, bank_card_currency, bank_card_paymentSystem, bank_card_date, id_client, bank_card_pin) values ('{cardType}','{cardNumber}','{cvvCode}','{currency}','{paymentSystem}','{cardDate}','{DataStorage.idClient}','{pinKod}')";
-            SqlCommand commandAddNewCard = new SqlCommand(queryAddNewCard, database.getConnection());
+            SqlCommand commandAddNewCard = new SqlCommand(queryAddNewCard, database.GetConnection());
             database.openConnection();
             commandAddNewCard.ExecuteNonQuery();
             database.closeConnection();

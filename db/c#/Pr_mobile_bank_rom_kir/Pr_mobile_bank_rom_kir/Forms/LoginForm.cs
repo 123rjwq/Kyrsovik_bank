@@ -62,7 +62,7 @@ namespace Pr_mobile_bank_rom_kir.Forms
             {
                 var querySelectClient = $"SELECT * FROM client WHERE client_phone_number = '{PhoneNumberTextBox.Text}' AND  client_password = '{PasswordTextBox.Text}'";
                 var queryGetId = $"select id_client from client where client_phone_number = '{PhoneNumberTextBox.Text}'";
-                var commandGetId = new SqlCommand(queryGetId, database.getConnection());
+                var commandGetId = new SqlCommand(queryGetId, database.GetConnection());
 
                 database.openConnection();
                 SqlDataReader reader = commandGetId.ExecuteReader();
@@ -76,7 +76,7 @@ namespace Pr_mobile_bank_rom_kir.Forms
                 SqlDataAdapter adapter = new SqlDataAdapter();
                 DataTable table = new DataTable();
 
-                SqlCommand command = new SqlCommand(querySelectClient, database.getConnection());
+                SqlCommand command = new SqlCommand(querySelectClient, database.GetConnection());
 
                 adapter.SelectCommand = command;
                 adapter.Fill(table);

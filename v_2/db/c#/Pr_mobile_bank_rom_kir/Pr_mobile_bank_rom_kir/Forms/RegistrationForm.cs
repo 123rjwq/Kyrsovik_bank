@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
 using Pr_mobile_bank_rom_kir.Classes;
 using System.Windows.Forms;
 using System.Text.RegularExpressions;
 using System.Data.SqlClient;
-using System.Reflection;
 
 namespace Pr_mobile_bank_rom_kir.Forms
 {
@@ -23,16 +19,23 @@ namespace Pr_mobile_bank_rom_kir.Forms
 
         private void RegistrationForm_Load(object sender, EventArgs e)
         {
+            // сразу переносим курсор в первое поле
             LastNameTextBox.Select();
         }
 
         private void SaveButton_Click(object sender, EventArgs e)
         {
+
+            // Указываем тип кнопок в MessageBox
             MessageBoxButtons btn = MessageBoxButtons.OK;
+
+            // Указываем иконку для MessageBox
             MessageBoxIcon ico = MessageBoxIcon.Information;
 
+            // Задаем заголовок для MessageBox
             string caption = "Дата сохранения";
 
+            // Регулярные выражения для правильной регестрации
             if (!Regex.IsMatch(LastNameTextBox.Text, "[A-Яa-я]+$"))
             {
                 MessageBox.Show("Пожалуйста, введите фамилию повторно!", caption, btn, ico);
@@ -94,29 +97,39 @@ namespace Pr_mobile_bank_rom_kir.Forms
 
             string yourSQL = "SELECT client_phone_number FROM client WHERE client_phone_number = '" + PhoneNumberTextBox.Text + "'";
 
+            // комментировал в логине (строка 82)
             SqlDataAdapter adapter = new SqlDataAdapter();
             DataTable table = new DataTable();
             SqlCommand command = new SqlCommand(yourSQL, database.getConnection());
+
             adapter.SelectCommand = command;
             adapter.Fill(table);
+
+            // проверка на уникальность номера
             if (table.Rows.Count > 0)
             {
                 MessageBox.Show("Номер телефона уже существует. Невозможно зарегистрировать аккаунт", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 PhoneNumberTextBox.SelectAll();
                 return;
             }
+
+            // выводим диалоговое окно и сохраняем выбор в переменную
             DialogResult result;
             result = MessageBox.Show("Вы хотите сохранить запись?", "Сохранение данных", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
+            // если выбрали зарегистрироваться
             if (result == DialogResult.Yes)
             {
+                // записываем данные в бд 
                 string mySQL = string.Empty;
                 mySQL += "INSERT INTO client (client_last_name, client_first_name, client_middle_name, client_gender, client_password, client_email, client_phone_number)";
                 mySQL += "VALUES ('" + LastNameTextBox.Text + "','" + FirstNameTextBox.Text + "','" + MiddleNameTextBox.Text + "',";
                 mySQL += "'" + GenderComboBox.SelectedItem.ToString() + "','" + PasswordTextBox.Text + "','" + AddressTextBox.Text + "','" + PhoneNumberTextBox.Text + "')";
 
                 database.openConnection();
+                // команда для внесения запроса в бд
                 SqlCommand commandAddNewUser = new SqlCommand(mySQL, database.getConnection());
+                // Выполняем SQL-запрос для добавления нового пользователя
                 commandAddNewUser.ExecuteNonQuery();
 
                 MessageBox.Show("Запись успешна сохранена", "Данные сохранены", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -126,7 +139,7 @@ namespace Pr_mobile_bank_rom_kir.Forms
                 Close();
             }
         }
-
+        // метод для очитски полей от данных
         private void clearControls()
         {
             foreach (TextBox textBox in Controls.OfType<TextBox>())

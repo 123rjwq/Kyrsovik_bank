@@ -7,25 +7,29 @@ namespace Pr_mobile_bank_rom_kir.Classes
 {
     class DataBaseConnection
     {
+        // строка подключения
         SqlConnection sqlConnection = new SqlConnection(@"Data Source = Magicbook; Initial Catalog = mobile_bank_rom_kir; Integrated Security = True");
 
-        public void openConnection()
+
+        // создаем длва метода соединения и разсоединения
+
+        public void OpenConnection()
         {
-            if (sqlConnection.State == System.Data.ConnectionState.Closed)
+            if (sqlConnection.State == ConnectionState.Closed)
             {
                 sqlConnection.Open();
             }
         }
 
-        public void closeConnection()
+        public void CloseConnection()
         {
-            if (sqlConnection.State == System.Data.ConnectionState.Open)
+            if (sqlConnection.State == ConnectionState.Open)
             {
                 sqlConnection.Close();
             }
         }
 
-        public SqlConnection getConnection()
+        public SqlConnection GetConnection()
         { 
             return sqlConnection;
         }

@@ -96,7 +96,7 @@ namespace Pr_mobile_bank_rom_kir.Forms
 
             SqlDataAdapter adapter = new SqlDataAdapter();
             DataTable table = new DataTable();
-            SqlCommand command = new SqlCommand(yourSQL, database.getConnection());
+            SqlCommand command = new SqlCommand(yourSQL, database.GetConnection());
             adapter.SelectCommand = command;
             adapter.Fill(table);
             if (table.Rows.Count > 0)
@@ -116,7 +116,7 @@ namespace Pr_mobile_bank_rom_kir.Forms
                 mySQL += "'" + GenderComboBox.SelectedItem.ToString() + "','" + PasswordTextBox.Text + "','" + AddressTextBox.Text + "','" + PhoneNumberTextBox.Text + "')";
 
                 database.openConnection();
-                SqlCommand commandAddNewUser = new SqlCommand(mySQL, database.getConnection());
+                SqlCommand commandAddNewUser = new SqlCommand(mySQL, database.GetConnection());
                 commandAddNewUser.ExecuteNonQuery();
 
                 MessageBox.Show("Запись успешна сохранена", "Данные сохранены", MessageBoxButtons.OK, MessageBoxIcon.Information);

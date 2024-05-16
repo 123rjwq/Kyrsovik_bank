@@ -50,7 +50,7 @@ namespace Pr_mobile_bank_rom_kir.Forms
             VisaPictureBox3.Visible = false;
 
             var queryMyCards = $"select id_bank_card, bank_card_number from bank_card where id_client = '{DataStorage.idClient}'";
-            SqlDataAdapter commandMyCards = new SqlDataAdapter(queryMyCards, database.getConnection());
+            SqlDataAdapter commandMyCards = new SqlDataAdapter(queryMyCards, database.GetConnection());
             database.openConnection();
             DataTable cards = new DataTable();
             commandMyCards.Fill(cards);
@@ -67,7 +67,7 @@ namespace Pr_mobile_bank_rom_kir.Forms
             label_cardNumber.Text = "";
             string paymentSystem = "";
             string querySelectCard = $"select bank_card_number, bank_card_cvv_code, CONCAT(FORMAT(bank_card_date, '%M'), '/', FORMAT(bank_card_date, '%y')), bank_card_paymentSystem , bank_card_balance, bank_card_currency from bank_card where bank_card_number = '{CardsComboBox.GetItemText(CardsComboBox.SelectedItem)}'";
-            SqlCommand command = new SqlCommand(querySelectCard, database.getConnection());
+            SqlCommand command = new SqlCommand(querySelectCard, database.GetConnection());
             database.openConnection();
             SqlDataReader reader = command.ExecuteReader();
             while (reader.Read())
@@ -158,7 +158,7 @@ namespace Pr_mobile_bank_rom_kir.Forms
         private void UpDateButton_Click(object sender, EventArgs e)
         {
             var queryMyCards = $"select id_bank_card, bank_card_number from bank_card where id_client = '{DataStorage.idClient}'";
-            SqlDataAdapter commandMyCards = new SqlDataAdapter(queryMyCards, database.getConnection());
+            SqlDataAdapter commandMyCards = new SqlDataAdapter(queryMyCards, database.GetConnection());
             database.openConnection();
             DataTable cards = new DataTable();
             commandMyCards.Fill(cards);

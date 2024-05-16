@@ -8,7 +8,8 @@ namespace Pr_mobile_bank_rom_kir.Classes
 {
     class DataStorage
     {
-        public static int attempts;
+        // значения которые надо передовать между формами
+        public static int attempts; // попытки
         public static string bankCard;
         public static string idClient;
         public static string phoneNumber;
