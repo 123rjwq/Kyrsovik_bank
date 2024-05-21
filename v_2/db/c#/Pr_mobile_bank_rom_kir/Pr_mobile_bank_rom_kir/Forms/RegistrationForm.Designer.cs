@@ -57,6 +57,7 @@
             this.CloseButton = new System.Windows.Forms.Button();
             this.LoginLabel = new System.Windows.Forms.Label();
             this.GenderComboBox = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // panel1
@@ -135,6 +136,7 @@
             this.PhoneNumberTextBox.Name = "PhoneNumberTextBox";
             this.PhoneNumberTextBox.Size = new System.Drawing.Size(207, 20);
             this.PhoneNumberTextBox.TabIndex = 116;
+            this.PhoneNumberTextBox.TextChanged += new System.EventHandler(this.PhoneNumberTextBox_TextChanged);
             // 
             // panel2
             // 
@@ -367,12 +369,26 @@
             this.GenderComboBox.Size = new System.Drawing.Size(175, 21);
             this.GenderComboBox.TabIndex = 121;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Tele2 - 52",
+            "Beeline - 03 09 60 76",
+            "Megafon - 20 26 27 37",
+            "MTS - 14 18 13 19"});
+            this.comboBox1.Location = new System.Drawing.Point(109, 629);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 122;
+            // 
             // RegistrationForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(470, 761);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.GenderComboBox);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel3);
@@ -443,5 +459,6 @@
         private System.Windows.Forms.Button CloseButton;
         private System.Windows.Forms.Label LoginLabel;
         private System.Windows.Forms.ComboBox GenderComboBox;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

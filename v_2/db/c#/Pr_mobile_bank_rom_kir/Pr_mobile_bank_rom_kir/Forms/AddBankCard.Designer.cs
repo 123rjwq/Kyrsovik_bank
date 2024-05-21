@@ -37,8 +37,8 @@
             this.cardTypeComboBox = new System.Windows.Forms.ComboBox();
             this.paymentSystemComboBox = new System.Windows.Forms.ComboBox();
             this.currencyComboBox = new System.Windows.Forms.ComboBox();
-            this.numericUpDown = new System.Windows.Forms.NumericUpDown();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown)).BeginInit();
+            this.numericUpDownPin = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPin)).BeginInit();
             this.SuspendLayout();
             // 
             // newCardButton
@@ -131,7 +131,7 @@
             // 
             this.paymentSystemComboBox.FormattingEnabled = true;
             this.paymentSystemComboBox.Items.AddRange(new object[] {
-            "Мир",
+            "Mir",
             "Visa"});
             this.paymentSystemComboBox.Location = new System.Drawing.Point(34, 243);
             this.paymentSystemComboBox.Name = "paymentSystemComboBox";
@@ -165,12 +165,12 @@
             this.currencyComboBox.Size = new System.Drawing.Size(121, 21);
             this.currencyComboBox.TabIndex = 115;
             // 
-            // numericUpDown
+            // numericUpDownPin
             // 
-            this.numericUpDown.Location = new System.Drawing.Point(34, 318);
-            this.numericUpDown.Name = "numericUpDown";
-            this.numericUpDown.Size = new System.Drawing.Size(120, 20);
-            this.numericUpDown.TabIndex = 117;
+            this.numericUpDownPin.Location = new System.Drawing.Point(34, 318);
+            this.numericUpDownPin.Name = "numericUpDownPin";
+            this.numericUpDownPin.Size = new System.Drawing.Size(120, 20);
+            this.numericUpDownPin.TabIndex = 117;
             // 
             // AddBankCard
             // 
@@ -178,7 +178,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(307, 453);
-            this.Controls.Add(this.numericUpDown);
+            this.Controls.Add(this.numericUpDownPin);
             this.Controls.Add(this.currencyComboBox);
             this.Controls.Add(this.paymentSystemComboBox);
             this.Controls.Add(this.cardTypeComboBox);
@@ -194,7 +194,7 @@
             this.Text = "AddBankCard";
             this.Load += new System.EventHandler(this.AddBankCard_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.AddBankCard_MouseDown);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPin)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -211,6 +211,6 @@
         private System.Windows.Forms.ComboBox cardTypeComboBox;
         private System.Windows.Forms.ComboBox paymentSystemComboBox;
         private System.Windows.Forms.ComboBox currencyComboBox;
-        private System.Windows.Forms.NumericUpDown numericUpDown;
+        private System.Windows.Forms.NumericUpDown numericUpDownPin;
     }
 }

@@ -35,22 +35,20 @@
             this.label1 = new System.Windows.Forms.Label();
             this.CloseButton = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.CardsComboBox = new System.Windows.Forms.ComboBox();
+            this.сardsComboBox = new System.Windows.Forms.ComboBox();
             this.MirPictureBox2 = new System.Windows.Forms.PictureBox();
             this.VisaPictureBox3 = new System.Windows.Forms.PictureBox();
             this.PerevodPanel2 = new System.Windows.Forms.Panel();
+            this.CardTextBox = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.TranslationButton = new System.Windows.Forms.Button();
-            this.CardTextBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.PhonePanel3 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.PhoneTextBox = new System.Windows.Forms.TextBox();
-            this.FurtherButton2 = new System.Windows.Forms.Button();
+            this.PhoneButton = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.gdyPictureBox8 = new System.Windows.Forms.PictureBox();
@@ -80,6 +78,7 @@
             this.balanceLabel = new System.Windows.Forms.Label();
             this.label_6 = new System.Windows.Forms.Label();
             this.label_cardNumber = new System.Windows.Forms.Label();
+            this.PhoneTextBox = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.UserPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HistoryPictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
@@ -110,6 +109,7 @@
             this.UserPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.UserPictureBox1.TabIndex = 0;
             this.UserPictureBox1.TabStop = false;
+            this.UserPictureBox1.Click += new System.EventHandler(this.UserPictureBox1_Click);
             // 
             // HistoryPictureBox2
             // 
@@ -120,6 +120,7 @@
             this.HistoryPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.HistoryPictureBox2.TabIndex = 1;
             this.HistoryPictureBox2.TabStop = false;
+            this.HistoryPictureBox2.Click += new System.EventHandler(this.HistoryPictureBox2_Click);
             // 
             // panel1
             // 
@@ -169,17 +170,18 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
-            // CardsComboBox
+            // сardsComboBox
             // 
-            this.CardsComboBox.BackColor = System.Drawing.Color.Black;
-            this.CardsComboBox.ForeColor = System.Drawing.Color.White;
-            this.CardsComboBox.FormattingEnabled = true;
-            this.CardsComboBox.Items.AddRange(new object[] {
+            this.сardsComboBox.BackColor = System.Drawing.Color.Black;
+            this.сardsComboBox.ForeColor = System.Drawing.Color.White;
+            this.сardsComboBox.FormattingEnabled = true;
+            this.сardsComboBox.Items.AddRange(new object[] {
             " "});
-            this.CardsComboBox.Location = new System.Drawing.Point(343, 80);
-            this.CardsComboBox.Name = "CardsComboBox";
-            this.CardsComboBox.Size = new System.Drawing.Size(150, 21);
-            this.CardsComboBox.TabIndex = 3;
+            this.сardsComboBox.Location = new System.Drawing.Point(343, 80);
+            this.сardsComboBox.Name = "сardsComboBox";
+            this.сardsComboBox.Size = new System.Drawing.Size(150, 21);
+            this.сardsComboBox.TabIndex = 3;
+            this.сardsComboBox.SelectedIndexChanged += new System.EventHandler(this.сardsComboBox_SelectedIndexChanged);
             // 
             // MirPictureBox2
             // 
@@ -203,16 +205,23 @@
             // 
             // PerevodPanel2
             // 
+            this.PerevodPanel2.Controls.Add(this.CardTextBox);
             this.PerevodPanel2.Controls.Add(this.label9);
             this.PerevodPanel2.Controls.Add(this.panel2);
             this.PerevodPanel2.Controls.Add(this.TranslationButton);
-            this.PerevodPanel2.Controls.Add(this.CardTextBox);
             this.PerevodPanel2.Controls.Add(this.label2);
             this.PerevodPanel2.Controls.Add(this.pictureBox2);
             this.PerevodPanel2.Location = new System.Drawing.Point(65, 379);
             this.PerevodPanel2.Name = "PerevodPanel2";
             this.PerevodPanel2.Size = new System.Drawing.Size(327, 105);
             this.PerevodPanel2.TabIndex = 6;
+            // 
+            // CardTextBox
+            // 
+            this.CardTextBox.Location = new System.Drawing.Point(62, 42);
+            this.CardTextBox.Name = "CardTextBox";
+            this.CardTextBox.Size = new System.Drawing.Size(195, 20);
+            this.CardTextBox.TabIndex = 126;
             // 
             // label9
             // 
@@ -248,17 +257,6 @@
             this.TranslationButton.UseVisualStyleBackColor = false;
             this.TranslationButton.Click += new System.EventHandler(this.TranslationButton_Click);
             // 
-            // CardTextBox
-            // 
-            this.CardTextBox.BackColor = System.Drawing.Color.White;
-            this.CardTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.CardTextBox.Enabled = false;
-            this.CardTextBox.ForeColor = System.Drawing.Color.White;
-            this.CardTextBox.Location = new System.Drawing.Point(61, 50);
-            this.CardTextBox.Name = "CardTextBox";
-            this.CardTextBox.Size = new System.Drawing.Size(196, 20);
-            this.CardTextBox.TabIndex = 105;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -288,16 +286,15 @@
             this.panel6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel6.Location = new System.Drawing.Point(52, 70);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(248, 11);
+            this.panel6.Size = new System.Drawing.Size(254, 11);
             this.panel6.TabIndex = 104;
             // 
             // PhonePanel3
             // 
-            this.PhonePanel3.Controls.Add(this.label10);
-            this.PhonePanel3.Controls.Add(this.label8);
             this.PhonePanel3.Controls.Add(this.PhoneTextBox);
+            this.PhonePanel3.Controls.Add(this.label10);
             this.PhonePanel3.Controls.Add(this.panel6);
-            this.PhonePanel3.Controls.Add(this.FurtherButton2);
+            this.PhonePanel3.Controls.Add(this.PhoneButton);
             this.PhonePanel3.Controls.Add(this.label3);
             this.PhonePanel3.Controls.Add(this.pictureBox6);
             this.PhonePanel3.Location = new System.Drawing.Point(434, 379);
@@ -315,40 +312,18 @@
             this.label10.TabIndex = 107;
             this.label10.Text = "Пополнение только РФ номера";
             // 
-            // label8
+            // PhoneButton
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.White;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label8.Location = new System.Drawing.Point(19, 52);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(27, 18);
-            this.label8.TabIndex = 107;
-            this.label8.Text = "+7";
-            // 
-            // PhoneTextBox
-            // 
-            this.PhoneTextBox.BackColor = System.Drawing.Color.White;
-            this.PhoneTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.PhoneTextBox.Enabled = false;
-            this.PhoneTextBox.ForeColor = System.Drawing.Color.White;
-            this.PhoneTextBox.Location = new System.Drawing.Point(52, 50);
-            this.PhoneTextBox.Name = "PhoneTextBox";
-            this.PhoneTextBox.Size = new System.Drawing.Size(245, 20);
-            this.PhoneTextBox.TabIndex = 106;
-            // 
-            // FurtherButton2
-            // 
-            this.FurtherButton2.BackColor = System.Drawing.Color.White;
-            this.FurtherButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.FurtherButton2.ForeColor = System.Drawing.Color.DimGray;
-            this.FurtherButton2.Location = new System.Drawing.Point(303, 48);
-            this.FurtherButton2.Name = "FurtherButton2";
-            this.FurtherButton2.Size = new System.Drawing.Size(32, 22);
-            this.FurtherButton2.TabIndex = 102;
-            this.FurtherButton2.Text = ">";
-            this.FurtherButton2.UseVisualStyleBackColor = false;
+            this.PhoneButton.BackColor = System.Drawing.Color.White;
+            this.PhoneButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PhoneButton.ForeColor = System.Drawing.Color.DimGray;
+            this.PhoneButton.Location = new System.Drawing.Point(303, 48);
+            this.PhoneButton.Name = "PhoneButton";
+            this.PhoneButton.Size = new System.Drawing.Size(32, 22);
+            this.PhoneButton.TabIndex = 102;
+            this.PhoneButton.Text = ">";
+            this.PhoneButton.UseVisualStyleBackColor = false;
+            this.PhoneButton.Click += new System.EventHandler(this.PhoneButton_Click);
             // 
             // label3
             // 
@@ -380,6 +355,7 @@
             this.gdyPictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.gdyPictureBox8.TabIndex = 125;
             this.gdyPictureBox8.TabStop = false;
+            this.gdyPictureBox8.Click += new System.EventHandler(this.gdyPictureBox8_Click);
             // 
             // TCGPanel4
             // 
@@ -667,6 +643,13 @@
             this.label_cardNumber.Size = new System.Drawing.Size(0, 20);
             this.label_cardNumber.TabIndex = 124;
             // 
+            // PhoneTextBox
+            // 
+            this.PhoneTextBox.Location = new System.Drawing.Point(52, 42);
+            this.PhoneTextBox.Name = "PhoneTextBox";
+            this.PhoneTextBox.Size = new System.Drawing.Size(245, 20);
+            this.PhoneTextBox.TabIndex = 126;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -691,7 +674,7 @@
             this.Controls.Add(this.PhonePanel3);
             this.Controls.Add(this.PerevodPanel2);
             this.Controls.Add(this.MirPictureBox2);
-            this.Controls.Add(this.CardsComboBox);
+            this.Controls.Add(this.сardsComboBox);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.VisaPictureBox3);
             this.ForeColor = System.Drawing.Color.Gray;
@@ -740,7 +723,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button CloseButton;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox CardsComboBox;
+        private System.Windows.Forms.ComboBox сardsComboBox;
         private System.Windows.Forms.PictureBox MirPictureBox2;
         private System.Windows.Forms.PictureBox VisaPictureBox3;
         private System.Windows.Forms.Panel PerevodPanel2;
@@ -762,16 +745,13 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button TranslationButton;
-        private System.Windows.Forms.Button FurtherButton2;
+        private System.Windows.Forms.Button PhoneButton;
         private System.Windows.Forms.Button FurtherButton3;
         private System.Windows.Forms.Button FurtherButton4;
         private System.Windows.Forms.Button FurtherButton6;
         private System.Windows.Forms.Button FurtherButton5;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.TextBox CardTextBox;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox PhoneTextBox;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button AddButton;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
@@ -785,5 +765,7 @@
         private System.Windows.Forms.Label label_6;
         private System.Windows.Forms.Label label_cardNumber;
         private System.Windows.Forms.PictureBox gdyPictureBox8;
+        private System.Windows.Forms.TextBox CardTextBox;
+        private System.Windows.Forms.TextBox PhoneTextBox;
     }
 }

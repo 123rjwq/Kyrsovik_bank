@@ -182,5 +182,10 @@ namespace Pr_mobile_bank_rom_kir.Forms
                 ConfirmPasswordTextBox.UseSystemPasswordChar = true;
             }
         }
+
+        private void PhoneNumberTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

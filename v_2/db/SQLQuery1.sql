@@ -88,13 +88,10 @@ INSERT INTO clientServices (serviceName, serviceBalance, serviceType) VALUES ('Р
 INSERT INTO clientServices (serviceName, serviceBalance, serviceType) VALUES ('Электричество', 0, 'ЖКХ');
 
 -- Оплата интернета и ТВ
-INSERT INTO clientServices (serviceName, serviceBalance, serviceType) VALUES ('Оплата интернета и ТВ', 0, 'Связь и интернет');
+INSERT INTO clientServices (serviceName, serviceBalance, serviceType) VALUES ('Оплата интернета и ТВ', 0, 'ТВ и интернет');
 
 -- Сотовой связи
-INSERT INTO clientServices (serviceName, serviceBalance, serviceType) VALUES ('Сотовой связи', 0, 'Связь и интернет');
-
--- Подписка на сервис
-INSERT INTO clientServices (serviceName, serviceBalance, serviceType) VALUES ('Подписка на сервис', 0, 'Подписки');
+INSERT INTO clientServices (serviceName, serviceBalance, serviceType) VALUES ('Подписок', 0, 'ТВ и интернет');
 
 -- Пожертвования на СВО
 INSERT INTO clientServices (serviceName, serviceBalance, serviceType) VALUES ('Пожертвования на СВО', 0, 'благотворительность');
@@ -102,11 +99,17 @@ INSERT INTO clientServices (serviceName, serviceBalance, serviceType) VALUES ('П
 -- Пожертвования на СД (счастливое детство)
 INSERT INTO clientServices (serviceName, serviceBalance, serviceType) VALUES ('Пожертвования на СД (счастливое детство)', 0, 'благотворительность');
 
--- Мамам
-INSERT INTO clientServices (serviceName, serviceBalance, serviceType) VALUES ('Мамам', 0, 'Перевод');
+-- МТС
+INSERT INTO clientServices (serviceName, serviceBalance, serviceType) VALUES ('МТС', 0, 'Связь');
 
--- Брат
-INSERT INTO clientServices (serviceName, serviceBalance, serviceType) VALUES ('Брат', 0, 'Перевод');
+-- Билайн
+INSERT INTO clientServices (serviceName, serviceBalance, serviceType) VALUES ('Билайн', 0, 'Связь');
+
+-- Megafon
+INSERT INTO clientServices (serviceName, serviceBalance, serviceType) VALUES ('Megafon', 0, 'Связь');
+
+-- Tele2
+INSERT INTO clientServices (serviceName, serviceBalance, serviceType) VALUES ('Tele2', 0, 'Связь');
 
 
-update bank_card set bank_card_balance = 50000 where id_bank_card = 1
+update bank_card set bank_card_balance = 50000 where id_bank_card = 12

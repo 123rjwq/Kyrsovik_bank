@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\cakyr\\Documents\\GitHub\\Kyrsovik_bank\\v_2\\db\\c#\\Pr_mobile_bank_rom_kir\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|c:\\users\\cakyr\\documents\\github\\kyrsovik_bank\\v_2\\db\\c#\\pr_mobile_bank_rom_kir\\pr_mobile_bank_rom_kir\\forms\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|solutionrelative:pr_mobile_bank_rom_kir\\forms\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|c:\\users\\cakyr\\documents\\github\\kyrsovik_bank\\v_2\\db\\c#\\pr_mobile_bank_rom_kir\\pr_mobile_bank_rom_kir\\forms\\sendtoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|solutionrelative:pr_mobile_bank_rom_kir\\forms\\sendtoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|C:\\Users\\cakyr\\Documents\\GitHub\\Kyrsovik_bank\\v_2\\db\\c#\\Pr_mobile_bank_rom_kir\\pr_mobile_bank_rom_kir\\forms\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|solutionrelative:pr_mobile_bank_rom_kir\\forms\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|c:\\users\\cakyr\\documents\\github\\kyrsovik_bank\\v_2\\db\\c#\\pr_mobile_bank_rom_kir\\pr_mobile_bank_rom_kir\\forms\\sendtoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|solutionrelative:pr_mobile_bank_rom_kir\\forms\\sendtoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|c:\\users\\cakyr\\documents\\github\\kyrsovik_bank\\v_2\\db\\c#\\pr_mobile_bank_rom_kir\\pr_mobile_bank_rom_kir\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|solutionrelative:pr_mobile_bank_rom_kir\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|C:\\Users\\cakyr\\Documents\\GitHub\\Kyrsovik_bank\\v_2\\db\\c#\\Pr_mobile_bank_rom_kir\\pr_mobile_bank_rom_kir\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|solutionrelative:pr_mobile_bank_rom_kir\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|c:\\users\\cakyr\\documents\\github\\kyrsovik_bank\\v_2\\db\\c#\\pr_mobile_bank_rom_kir\\pr_mobile_bank_rom_kir\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|solutionrelative:pr_mobile_bank_rom_kir\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|C:\\Users\\cakyr\\Documents\\GitHub\\Kyrsovik_bank\\v_2\\db\\c#\\Pr_mobile_bank_rom_kir\\pr_mobile_bank_rom_kir\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|solutionrelative:pr_mobile_bank_rom_kir\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|c:\\users\\cakyr\\documents\\github\\kyrsovik_bank\\v_2\\db\\c#\\pr_mobile_bank_rom_kir\\pr_mobile_bank_rom_kir\\forms\\phoneform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|solutionrelative:pr_mobile_bank_rom_kir\\forms\\phoneform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|C:\\Users\\cakyr\\Documents\\GitHub\\Kyrsovik_bank\\v_2\\db\\c#\\Pr_mobile_bank_rom_kir\\pr_mobile_bank_rom_kir\\forms\\phoneform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A10B142E-F69F-416E-B545-6E78ED21BD5C}|Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir.csproj|solutionrelative:pr_mobile_bank_rom_kir\\forms\\phoneform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,52 +42,77 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\cakyr\\Documents\\GitHub\\Kyrsovik_bank\\v_2\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\LoginForm.cs",
-              "RelativeDocumentMoniker": "Pr_mobile_bank_rom_kir\\Forms\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\cakyr\\Documents\\GitHub\\Kyrsovik_bank\\v_2\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\LoginForm.cs",
-              "RelativeToolTip": "Pr_mobile_bank_rom_kir\\Forms\\LoginForm.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAIwFgAAAAQAAAA",
+              "DocumentIndex": 1,
+              "Title": "SendToForm.cs",
+              "DocumentMoniker": "C:\\Users\\cakyr\\Documents\\GitHub\\Kyrsovik_bank\\v_2\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\SendToForm.cs",
+              "RelativeDocumentMoniker": "Pr_mobile_bank_rom_kir\\Forms\\SendToForm.cs",
+              "ToolTip": "C:\\Users\\cakyr\\Documents\\GitHub\\Kyrsovik_bank\\v_2\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\SendToForm.cs",
+              "RelativeToolTip": "Pr_mobile_bank_rom_kir\\Forms\\SendToForm.cs",
+              "ViewState": "AQIAANMAAAAAAAAAAIAwwOgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T09:48:10.312Z",
+              "WhenOpened": "2024-05-21T20:26:07.475Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RegistrationForm.cs",
-              "DocumentMoniker": "C:\\Users\\cakyr\\Documents\\GitHub\\Kyrsovik_bank\\v_2\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\RegistrationForm.cs",
-              "RelativeDocumentMoniker": "Pr_mobile_bank_rom_kir\\Forms\\RegistrationForm.cs",
-              "ToolTip": "C:\\Users\\cakyr\\Documents\\GitHub\\Kyrsovik_bank\\v_2\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\RegistrationForm.cs",
-              "RelativeToolTip": "Pr_mobile_bank_rom_kir\\Forms\\RegistrationForm.cs",
-              "ViewState": "AQIAAGUAAAAAAAAAAAAewIwAAAAJAAAA",
+              "Title": "SendToForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\cakyr\\Documents\\GitHub\\Kyrsovik_bank\\v_2\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\SendToForm.cs",
+              "RelativeDocumentMoniker": "Pr_mobile_bank_rom_kir\\Forms\\SendToForm.cs",
+              "ToolTip": "C:\\Users\\cakyr\\Documents\\GitHub\\Kyrsovik_bank\\v_2\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\SendToForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Pr_mobile_bank_rom_kir\\Forms\\SendToForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:41:44.752Z",
+              "WhenOpened": "2024-05-21T20:25:59.6Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PhoneForm.cs",
+              "DocumentMoniker": "C:\\Users\\cakyr\\Documents\\GitHub\\Kyrsovik_bank\\v_2\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\PhoneForm.cs",
+              "RelativeDocumentMoniker": "Pr_mobile_bank_rom_kir\\Forms\\PhoneForm.cs",
+              "ToolTip": "C:\\Users\\cakyr\\Documents\\GitHub\\Kyrsovik_bank\\v_2\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\PhoneForm.cs",
+              "RelativeToolTip": "Pr_mobile_bank_rom_kir\\Forms\\PhoneForm.cs",
+              "ViewState": "AQIAAOgAAAAAAAAAAAAMwAoBAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T17:47:11.101Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegistrationForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\cakyr\\Documents\\GitHub\\Kyrsovik_bank\\v_2\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\RegistrationForm.cs",
-              "RelativeDocumentMoniker": "Pr_mobile_bank_rom_kir\\Forms\\RegistrationForm.cs",
-              "ToolTip": "C:\\Users\\cakyr\\Documents\\GitHub\\Kyrsovik_bank\\v_2\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\RegistrationForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "Pr_mobile_bank_rom_kir\\Forms\\RegistrationForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentIndex": 5,
+              "Title": "PhoneForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\cakyr\\Documents\\GitHub\\Kyrsovik_bank\\v_2\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\PhoneForm.cs",
+              "RelativeDocumentMoniker": "Pr_mobile_bank_rom_kir\\Forms\\PhoneForm.cs",
+              "ToolTip": "C:\\Users\\cakyr\\Documents\\GitHub\\Kyrsovik_bank\\v_2\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\PhoneForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Pr_mobile_bank_rom_kir\\Forms\\PhoneForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T15:05:27.655Z",
+              "WhenOpened": "2024-05-20T17:25:55.391Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LoginForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\cakyr\\Documents\\GitHub\\Kyrsovik_bank\\v_2\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\LoginForm.cs",
-              "RelativeDocumentMoniker": "Pr_mobile_bank_rom_kir\\Forms\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\cakyr\\Documents\\GitHub\\Kyrsovik_bank\\v_2\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\LoginForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "Pr_mobile_bank_rom_kir\\Forms\\LoginForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\cakyr\\Documents\\GitHub\\Kyrsovik_bank\\v_2\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "Pr_mobile_bank_rom_kir\\Forms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\cakyr\\Documents\\GitHub\\Kyrsovik_bank\\v_2\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\MainForm.cs",
+              "RelativeToolTip": "Pr_mobile_bank_rom_kir\\Forms\\MainForm.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAD4v8sAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T09:48:07.581Z",
+              "WhenOpened": "2024-05-19T10:33:58.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\cakyr\\Documents\\GitHub\\Kyrsovik_bank\\v_2\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "Pr_mobile_bank_rom_kir\\Forms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\cakyr\\Documents\\GitHub\\Kyrsovik_bank\\v_2\\db\\c#\\Pr_mobile_bank_rom_kir\\Pr_mobile_bank_rom_kir\\Forms\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Pr_mobile_bank_rom_kir\\Forms\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T10:33:55.953Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             }
           ]

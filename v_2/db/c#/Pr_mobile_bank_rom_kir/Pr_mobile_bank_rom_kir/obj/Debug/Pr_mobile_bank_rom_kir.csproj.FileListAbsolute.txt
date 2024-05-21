@@ -26,3 +26,9 @@ C:\Users\cakyr\Documents\GitHub\Kyrsovik_bank\v_2\db\c#\Pr_mobile_bank_rom_kir\P
 C:\Users\cakyr\Documents\GitHub\Kyrsovik_bank\v_2\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\bin\Debug\Pr_mobile_bank_rom_kir.exe.config
 C:\Users\cakyr\Documents\GitHub\Kyrsovik_bank\v_2\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\bin\Debug\Pr_mobile_bank_rom_kir.exe
 C:\Users\cakyr\Documents\GitHub\Kyrsovik_bank\v_2\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\bin\Debug\Pr_mobile_bank_rom_kir.pdb
+C:\Users\cakyr\Documents\GitHub\Kyrsovik_bank\v_2\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.Forms.ChangeEmail.resources
+C:\Users\cakyr\Documents\GitHub\Kyrsovik_bank\v_2\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.Forms.ChangePassword.resources
+C:\Users\cakyr\Documents\GitHub\Kyrsovik_bank\v_2\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.Forms.ChangePhoneNumber.resources
+C:\Users\cakyr\Documents\GitHub\Kyrsovik_bank\v_2\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.Forms.History.resources
+C:\Users\cakyr\Documents\GitHub\Kyrsovik_bank\v_2\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.Forms.UserForm.resources
+C:\Users\cakyr\Documents\GitHub\Kyrsovik_bank\v_2\db\c#\Pr_mobile_bank_rom_kir\Pr_mobile_bank_rom_kir\obj\Debug\Pr_mobile_bank_rom_kir.Forms.PhoneForm.resources
